@@ -1,3 +1,4 @@
+//入力内容をコンソールに表示させる
 $(function() {
     $('.btn__submit').on('click', function() {
         console.log($('#family__name').val());
@@ -15,5 +16,5 @@ $(function() {
         console.log($('#tel').val());
         console.log($('[name="subscription"]:checked').val());
 
-    })
+    });
 });
