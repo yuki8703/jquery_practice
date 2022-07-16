@@ -1,3 +1,4 @@
+//ドロワーメニュー
 $(function() {
     $(".nav-item").click(function() {
         let a = $(".nav-item").index(this);
