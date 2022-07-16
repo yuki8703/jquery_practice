@@ -1,5 +1,5 @@
 $(function() {
-    let searchWord;
+    let searchWord; //入力した内容をsearchWordに代入
     let pageCount = 1;
 
     // API
