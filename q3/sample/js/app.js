@@ -1,6 +1,12 @@
-$(function() { $(".drawer_button").click(function() { $(this).toggleClass("active");
+$(function() {
+    $(".drawer_button").click(function() {
+        $(this).toggleClass("active");
         $(".drawer_bg").fadeToggle();
-        $("nav").toggleClass("open") });
-    $(".drawer_bg").click(function() { $(this).hide();
+        $("nav").toggleClass("open")
+    });
+    $(".drawer_bg").click(function() {
+        $(this).hide();
         $(".drawer_button").removeClass("active");
-        $("nav").removeClass("open") }) });
+        $("nav").removeClass("open")
+    })
+});
